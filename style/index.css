@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #323233;
+    font-family: -apple-system, BlinkMacSystemFont, PingFang SC, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Microsoft Yahei, STHeiti, SimSun, sans-serif;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 24px 0;
+}
+
+ul {
+    column-gap: 2px;
+    column-count: 4;
+}
+
+li {
+    display: inline-block;
+    width: 100%;
+    break-inside: avoid;
+}
+
+img {
+    width: 100%;
+}
